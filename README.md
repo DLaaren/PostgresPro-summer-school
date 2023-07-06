@@ -7,7 +7,7 @@
 3) make (or make all) (or make world if you want eveeeerryyythiing)
 4) (optional) make check (just tests)
 5) make install
-6) useradd postgres && passwd <password>
+6) useradd postgres && passwd < password >
 7) create dir for our future db cluster : mkdir -p /var/lib/postgres
 8) change owner of this dir : chown -R postgres:postgres /var/lib/postgres
 9) su - postgres
