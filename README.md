@@ -12,9 +12,9 @@
 8) change owner of this dir : chown -R postgres:postgres /var/lib/postgres
 9) su - postgres
 10) initialize db : initdb -D /var/lib/postgres/data < bd_name >
-    !!attention!!
-    if there is "command not found", try : find / -name < command_name >
-    then use the full path to the command (or create link)
+    <\b>!!attention!!
+    <\b>if there is "command not found", try : find / -name < command_name >
+    <\b>then use the full path to the command (or create link)
 11) pg_ctl -D /var/lib/postgres/data start
 12) psql -h 127.0.0.1 -p 5432 -d < db_name > -U < user_name >
 
