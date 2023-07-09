@@ -29,5 +29,8 @@ HOOKS IN POSTGRESQL
 https://github.com/taminomara/psql-hooks
 https://supabase.com/blog/roles-postgres-hooks
 
+Each hook is a pointer to a function, initially set to be NULL.
+During its work, postgres checks whether certain function pointers are not null and if that's the case, calls them
+
 
 
