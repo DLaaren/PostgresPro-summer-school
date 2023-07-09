@@ -4,7 +4,7 @@ MODULE_big = my_extension
 OBJS = my_extension.o		    # the shared object can be used in psql
 EXTENSION = my_extension        # the extersion's name
 DATA = my_extension--1.0.sql    # script file to install
-#REGRESS = my_extension_test.sql # the test script file 
+REGRESS = my_extension_test # the test script file 
 
 ifdef USE_PGXS
 PG_CONFIG = pg_config
