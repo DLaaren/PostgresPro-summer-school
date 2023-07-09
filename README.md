@@ -10,5 +10,3 @@
     if you create c functions
 7) go to dir "contrib" and open Makefile. Add in SUBDIR you extension's dir
 8) Then just 'make' and 'make install' source code again
-
-   Later I'll add how to create tests and how to create new functions!!
