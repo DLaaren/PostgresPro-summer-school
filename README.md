@@ -26,6 +26,8 @@
 ::Our team decided to choose project about proxy::
 
 HOOKS IN POSTGRESQL
+https://github.com/taminomara/psql-hooks
+https://supabase.com/blog/roles-postgres-hooks
 
 
 
