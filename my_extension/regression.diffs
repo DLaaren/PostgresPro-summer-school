@@ -1,0 +1,26 @@
+diff -U3 /home/dlaaren/postgres/contrib/my_extension/expected/my_extension_test.out /home/dlaaren/postgres/contrib/my_extension/results/my_extension_test.out
+--- /home/dlaaren/postgres/contrib/my_extension/expected/my_extension_test.out	2023-07-08 16:45:16.770640320 +0700
++++ /home/dlaaren/postgres/contrib/my_extension/results/my_extension_test.out	2023-07-09 17:55:23.363385401 +0700
+@@ -54,6 +54,7 @@
+ (1 row)
+ 
+ SELECT my_sum(-2147483648::INT, 0::INT);
++INFO:  You are wrong pal!!
+ ERROR:  integer out of range
+ SELECT my_sum(2147483647::INT, 2147483647::INT);
+  my_sum 
+@@ -62,10 +63,14 @@
+ (1 row)
+ 
+ SELECT my_sum(-2147483648::INT, -2147483648::INT);
++INFO:  You are wrong pal!!
+ ERROR:  integer out of range
+ SELECT my_sum(-2147483648::INT, 2147483647::INT);
++INFO:  You are wrong pal!!
+ ERROR:  integer out of range
+ SELECT my_sum(2147483647::INT, -2147483648::INT);
++INFO:  You are wrong pal!!
+ ERROR:  integer out of range
+ SELECT my_sum(111111111111111::INT, 222222222222222::INT);
++INFO:  You are wrong pal!!
+ ERROR:  integer out of range
