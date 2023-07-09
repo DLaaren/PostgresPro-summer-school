@@ -18,7 +18,13 @@
 ХРАНЕНИЕ ДАННЫХ
  ![image](https://github.com/DLaaren/PostgresPro-summer-school/assets/100743455/17eff5cb-dab6-4adf-a443-6868f41b06f7)
 
+итоги
 ![image](https://github.com/DLaaren/PostgresPro-summer-school/assets/100743455/c14403c8-00e2-4481-ab6e-d54247338971)
 
 
 ::Our team decided to choose project about proxy::
+
+<br \><br \><br \>
+
+
+
