@@ -1,5 +1,16 @@
 # PostgresPro-summer-school
 
-I'll add a summary tomorrow
+Транзакции -- либо операция выполняется полностью, либо не выполняется вообще
+
+Св-ва транзакции:
+1) Атомарность (все или ничего)
+2) Согласованность (ограничения целостности и ограничения пользователя)
+3) Изоляция (влияние параллельных процессов)
+4) Долговечность (сохранность после сбоя)
+
+![image](https://github.com/DLaaren/PostgresPro-summer-school/assets/100743455/79371a1d-847f-4f41-b865-0efcdaa365d9)
+
+
+
 
 ::Our team decided to choose project about proxy::
